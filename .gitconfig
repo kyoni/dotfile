@@ -1,0 +1,27 @@
+[user]
+	name = kyoni
+	email = kyoni@ifalo.com.tw
+[core]
+	editor = vim
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+[alias]
+	co = checkout
+	ci = commit
+	di = diff
+	st = status
+	br = branch
+	re = remote
+	di = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset'
+	view = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset'
+	recommit = commit --amend
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[diff]
+	external = git_diff_wrapper
+[pager]
+	diff =
