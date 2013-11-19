@@ -7,8 +7,8 @@ hi search ctermbg=12 guibg=LightBlue
 "set cursorline
 "set guicursor=n-v-c:hor10
 set fileencoding=utf-8
-"colorscheme mango
-"set t_Co=256
+colorscheme Green
+set t_Co=256
 
 " code/paste from paste note
 "nmap <F7> :set paste!<BAR>set paste?<CR>                                                                 
