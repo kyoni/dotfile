@@ -4,7 +4,7 @@
 rm .bash_profile
 rm .gitconfig
 rm .tmux.conf
-rm .vimrc .vim
+rm -rf .vimrc .vim
 
 if [ -f ~/.bash_profile.bak ];then
 	mv ~/.bash_profile.bak ~/.bash_profile
