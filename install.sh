@@ -19,5 +19,6 @@ fi
 
 ln -s ~/dotfile/.bash_profile ~/.bash_profile
 ln -s ~/dotfile/.gitconfig ~/.gitconfig
+ln -s ~/dotfile/.tmux.conf ~/.tmux.conf
 ln -s ~/dotfile/.vimrc ~/.vimrc
 ln -s ~/dotfile/.vim ~/.vim
