@@ -1,4 +1,4 @@
-alias ls='ls --color'
+alias ls='ls --color -F'
 
 export CLICOLOR='true'
 export LSCOLORS='Gxfxaxdxcxegedabagacad'
