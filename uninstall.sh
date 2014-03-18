@@ -2,12 +2,16 @@
 #
 
 rm .bash_profile
+rm .profile
 rm .gitconfig
 rm .tmux.conf
 rm -rf .vimrc .vim
 
 if [ -f ~/.bash_profile.bak ];then
 	mv ~/.bash_profile.bak ~/.bash_profile
+fi
+if [ -f ~/.profile.bak ];then
+	mv ~/.profile.bak ~/.profile
 fi
 if [ -f ~/.gitconfig.bak ];then
 	mv ~/.gitconfig.bak ~/.gitconfig
