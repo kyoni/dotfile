@@ -1,32 +1,32 @@
 #!/bin/bash
 #
 
-if [ -f /root/.bash_profile ];then
-	mv /root/.bash_profile /root/.bash_profile.bak
+if [ -f /var/root/.bash_profile ];then
+	mv /var/root/.bash_profile /var/root/.bash_profile.bak
 fi
-if [ -f /root/.bashrc ];then
-	mv /root/.bashrc /root/.bashrc.bak
+if [ -f /var/root/.bashrc ];then
+	mv /var/root/.bashrc /var/root/.bashrc.bak
 fi
-if [ -f /root/.profile ];then
-	mv /root/.profile /root/.profile.bak
+if [ -f /var/root/.profile ];then
+	mv /var/root/.profile /var/root/.profile.bak
 fi
-if [ -f /root/.gitconfig ];then
-	mv /root/.gitconfig /root/.gitconfig.bak
+if [ -f /var/root/.gitconfig ];then
+	mv /var/root/.gitconfig /var/root/.gitconfig.bak
 fi
-if [ -f /root/.tmux.conf ];then
-	mv /root/.tmux.conf /root/.tmux.conf.bak
+if [ -f /var/root/.tmux.conf ];then
+	mv /var/root/.tmux.conf /var/root/.tmux.conf.bak
 fi
-if [ -f /root/.vimrc ];then
-	mv /root/.vimrc /root/.vimrc.bak
+if [ -f /var/root/.vimrc ];then
+	mv /var/root/.vimrc /var/root/.vimrc.bak
 fi
-if [ -d /root/.vim ];then
-	mv /root/.vim /root/.vim.bak
+if [ -d /var/root/.vim ];then
+	mv /var/root/.vim /var/root/.vim.bak
 fi
 
-ln -s ~/dotfile/.bash_profile /root/.bash_profile
-ln -s ~/dotfile/.bash_profile /root/.bashrc
-ln -s ~/dotfile/.bash_profile /root/.profile
-ln -s ~/dotfile/.gitconfig /root/.gitconfig
-ln -s ~/dotfile/.tmux.conf /root/.tmux.conf
-ln -s ~/dotfile/.vimrc /root/.vimrc
-ln -s ~/dotfile/.vim /root/.vim
+ln -s ~/dotfile/.bash_profile /var/root/.bash_profile
+ln -s ~/dotfile/.bash_profile /var/root/.bashrc
+ln -s ~/dotfile/.bash_profile /var/root/.profile
+ln -s ~/dotfile/.gitconfig /var/root/.gitconfig
+ln -s ~/dotfile/.tmux.conf /var/root/.tmux.conf
+ln -s ~/dotfile/.vimrc /var/root/.vimrc
+ln -s ~/dotfile/.vim /var/root/.vim

@@ -1,31 +1,31 @@
 #!/bin/bash
 #
 
-rm /root/.bash_profile
-rm /root/.bashrc
-rm /root/.profile
-rm /root/.gitconfig
-rm /root/.tmux.conf
-rm -rf /root/.vimrc /root/.vim
+rm /var/root/.bash_profile
+rm /var/root/.bashrc
+rm /var/root/.profile
+rm /var/root/.gitconfig
+rm /var/root/.tmux.conf
+rm -rf /var/root/.vimrc /var/root/.vim
 
-if [ -f /root/.bash_profile.bak ];then
-	mv /root/.bash_profile.bak /root/.bash_profile
+if [ -f /var/root/.bash_profile.bak ];then
+	mv /var/root/.bash_profile.bak /var/root/.bash_profile
 fi
-if [ -f /root/.bashrc.bak ];then
-	mv /root/.bashrc.bak /root/.bashrc
+if [ -f /var/root/.bashrc.bak ];then
+	mv /var/root/.bashrc.bak /var/root/.bashrc
 fi
-if [ -f /root/.profile.bak ];then
-	mv /root/.profile.bak /root/.profile
+if [ -f /var/root/.profile.bak ];then
+	mv /var/root/.profile.bak /var/root/.profile
 fi
-if [ -f /root/.gitconfig.bak ];then
-	mv /root/.gitconfig.bak /root/.gitconfig
+if [ -f /var/root/.gitconfig.bak ];then
+	mv /var/root/.gitconfig.bak /var/root/.gitconfig
 fi
-if [ -f /root/.tmux.conf.bak ];then
-	mv /root/.tmux.conf.bak /root/.tmux.conf
+if [ -f /var/root/.tmux.conf.bak ];then
+	mv /var/root/.tmux.conf.bak /var/root/.tmux.conf
 fi
-if [ -f /root/.vimrc.bak ];then
-	mv /root/.vimrc.bak /root/.vimrc
+if [ -f /var/root/.vimrc.bak ];then
+	mv /var/root/.vimrc.bak /var/root/.vimrc
 fi
-if [ -d /root/.vim.bak ];then
-	mv /root/.vim.bak /root/.vim
+if [ -d /var/root/.vim.bak ];then
+	mv /var/root/.vim.bak /var/root/.vim
 fi
