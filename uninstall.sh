@@ -2,6 +2,7 @@
 #
 
 rm .bash_profile
+rm .bashrc
 rm .profile
 rm .gitconfig
 rm .tmux.conf
