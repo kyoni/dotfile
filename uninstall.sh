@@ -1,12 +1,12 @@
 #!/bin/bash
 #
 
-rm .bash_profile
-rm .bashrc
-rm .profile
-rm .gitconfig
-rm .tmux.conf
-rm -rf .vimrc .vim
+rm ~/.bash_profile
+rm ~/.bashrc
+rm ~/.profile
+rm ~/.gitconfig
+rm ~/.tmux.conf
+rm -rf ~/.vimrc ~/.vim
 
 if [ -f ~/.bash_profile.bak ];then
 	mv ~/.bash_profile.bak ~/.bash_profile
