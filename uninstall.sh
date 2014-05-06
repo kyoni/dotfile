@@ -11,6 +11,9 @@ rm -rf .vimrc .vim
 if [ -f ~/.bash_profile.bak ];then
 	mv ~/.bash_profile.bak ~/.bash_profile
 fi
+if [ -f ~/.bashrc.bak ];then
+	mv ~/.bashrc.bak ~/.bashrc
+fi
 if [ -f ~/.profile.bak ];then
 	mv ~/.profile.bak ~/.profile
 fi

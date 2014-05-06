@@ -24,7 +24,7 @@ if [ -d ~/.vim ];then
 fi
 
 ln -s ~/dotfile/.bash_profile ~/.bash_profile
-ln -s ~/dotfile/.bashrc ~/.bashrc
+ln -s ~/dotfile/.bash_profile ~/.bashrc
 ln -s ~/dotfile/.bash_profile ~/.profile
 ln -s ~/dotfile/.gitconfig ~/.gitconfig
 ln -s ~/dotfile/.tmux.conf ~/.tmux.conf
