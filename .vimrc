@@ -6,7 +6,9 @@ set hlsearch
 hi search ctermbg=12 guibg=LightBlue
 "set cursorline
 "set guicursor=n-v-c:hor10
+set encoding=utf-8 
 set fileencoding=utf-8
+set termencoding=utf-8
 colorscheme Green
 set t_Co=256
 
