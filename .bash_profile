@@ -1,4 +1,7 @@
 alias ls='ls -GF'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 alias backupmongo='scp -r root@mongo01.haoo.co:/root/mongoBackup /Users/kyoni'
 
