@@ -22,6 +22,9 @@ fi
 if [ -d ~/.vim ];then
 	mv ~/.vim ~/.vim.bak
 fi
+if [ -f /usr/local/bin/git_diff_wrapper ];then
+        mv /usr/local/bin/git_diff_wrapper /usr/local/bin/git_diff_wrapper.bak
+fi
 
 ln -s ~/dotfile/.bash_profile ~/.bash_profile
 ln -s ~/dotfile/.bash_profile ~/.bashrc
@@ -30,3 +33,4 @@ ln -s ~/dotfile/.gitconfig ~/.gitconfig
 ln -s ~/dotfile/.tmux.conf ~/.tmux.conf
 ln -s ~/dotfile/.vimrc ~/.vimrc
 ln -s ~/dotfile/.vim ~/.vim
+ln -s ~/dotfile/git_diff_wrapper /usr/local/bin/git_diff_wrapper

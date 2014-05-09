@@ -7,6 +7,7 @@ rm ~/.profile
 rm ~/.gitconfig
 rm ~/.tmux.conf
 rm -rf ~/.vimrc ~/.vim
+rm /usr/local/bin/git_diff_wrapper
 
 if [ -f ~/.bash_profile.bak ];then
 	mv ~/.bash_profile.bak ~/.bash_profile
@@ -29,3 +30,6 @@ fi
 if [ -d ~/.vim.bak ];then
 	mv ~/.vim.bak ~/.vim
 fi
+if [ -d /usr/local/bin/git_diff_wrapper.bak ];then
+        mv /usr/local/bin/git_diff_wrapper.bak /usr/local/bin/git_diff_wrapper
+fi      

@@ -27,3 +27,8 @@ else
 fi
 
 export PATH='/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin'
+
+# 顯示預設 git diff 結果
+function git_diff() {
+	git diff --no-ext-diff -w "$@" | vim -R -
+}
