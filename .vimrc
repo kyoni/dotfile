@@ -7,7 +7,7 @@ hi search ctermbg=12 guibg=LightBlue
 "set cursorline
 "set guicursor=n-v-c:hor10
 set fileencoding=utf-8
-colorscheme Green
+colorscheme darkZ
 set t_Co=256
 
 " code/paste from paste note
