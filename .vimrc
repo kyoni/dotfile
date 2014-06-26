@@ -9,7 +9,7 @@ hi search ctermbg=12 guibg=LightBlue
 set encoding=utf-8 
 set fileencoding=utf-8
 set termencoding=utf-8
-colorscheme Green
+colorscheme darkZ
 set t_Co=256
 
 " code/paste from paste note
