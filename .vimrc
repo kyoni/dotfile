@@ -3,10 +3,12 @@ syntax on
 set nu
 set ai
 set hlsearch
-hi search ctermbg=11 guibg=Red
+hi search ctermbg=12 guibg=LightBlue
 "set cursorline
 "set guicursor=n-v-c:hor10
 set fileencoding=utf-8
+colorscheme darkZ
+set t_Co=256
 
 " code/paste from paste note
 "nmap <F7> :set paste!<BAR>set paste?<CR>                                                                 
