@@ -2,6 +2,7 @@
 syntax on
 set nu
 set ai
+set ic
 set hlsearch
 set incsearch
 hi search ctermbg=12 guibg=LightBlue
