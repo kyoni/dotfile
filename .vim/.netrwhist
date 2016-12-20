@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/usr/local/zend/apache2/htdocs/biz/public/css/chanel-sass-lib'
 let g:netrw_dirhist_2='/usr/local/zend/apache2/htdocs/biz/public/css'
 let g:netrw_dirhist_3='/Users/kyoni/gitfun'
 let g:netrw_dirhist_4='/Users/kyoni/production_db_conf'
 let g:netrw_dirhist_5='/Users/kyoni/gitolite-admin/conf'
 let g:netrw_dirhist_6='/Users/kyoni/.vim'
+let g:netrw_dirhist_7='/Users/alex/Google Drive/htdocs/sky-front/src/components/MenuSlider'
+let g:netrw_dirhist_8='/Users/alex/Google Drive/htdocs/animal-origin/application/views/estimate'

@@ -32,3 +32,6 @@ export PATH='/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin'
 function git_diff() {
 	git diff --no-ext-diff -w "$@" | vim -R -
 }
+
+# Add docker bash
+[ -f ~/.bashrc_docker ] && . ~/.bashrc_docker
