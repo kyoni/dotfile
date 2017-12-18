@@ -19,6 +19,9 @@ export LESS_TERMCAP_us=$'\E[38;5;167m'
 export GIT_PS1_SHOWDIRTYSTATE=1
 #=============================
 
+# fix CentOS problem
+source ~/.git-prompt.sh
+
 # 
 if [ $EUID = 0 ]; then
 	export PS1='\[\033[01;31m\]\u\[\033[01;37m\]@\[\033[01;32m\]\h\[\033[00m\]: \[\033[01;31m\]\W\[\033[00m\]$(__git_ps1) \[\033[01;35m\]\$ \[\033[39m\] '
