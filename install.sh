@@ -28,6 +28,9 @@ fi
 if [ -f /usr/local/bin/git_diff_wrapper ];then
         sudo mv /usr/local/bin/git_diff_wrapper /usr/local/bin/git_diff_wrapper.bak
 fi
+if [ -f ~/.git-prompt.sh ];then
+	mv ~/.git-prompt.sh ~/.git-prompt.sh.bak
+fi
 
 ln -s ~/dotfile/.bash_profile ~/.bash_profile
 ln -s ~/dotfile/.bash_profile ~/.bashrc
@@ -38,3 +41,4 @@ ln -s ~/dotfile/.vimrc ~/.vimrc
 ln -s ~/dotfile/.vim ~/.vim
 ln -s ~/dotfile/.subversion ~/.subversion
 sudo ln -s ~/dotfile/git_diff_wrapper /usr/local/bin/git_diff_wrapper
+ln -s ~/dotfile/.git-prompt.sh ~/.git-prompt.sh

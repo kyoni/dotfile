@@ -22,6 +22,9 @@ fi
 if [ -d /root/.vim ];then
 	mv /root/.vim /root/.vim.bak
 fi
+if [ -f /root/.git-prompt.sh ];then
+	mv /root/.git-prompt.sh /root/.git-prompt.sh.bak
+fi
 
 ln -s ~/dotfile/.bash_profile /root/.bash_profile
 ln -s ~/dotfile/.bash_profile /root/.bashrc
@@ -30,3 +33,4 @@ ln -s ~/dotfile/.gitconfig /root/.gitconfig
 ln -s ~/dotfile/.tmux.conf /root/.tmux.conf
 ln -s ~/dotfile/.vimrc /root/.vimrc
 ln -s ~/dotfile/.vim /root/.vim
+ln -s ~/dotfile/.git-prompt.sh /root/.git-prompt.sh
